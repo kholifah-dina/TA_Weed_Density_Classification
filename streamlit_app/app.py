@@ -102,7 +102,7 @@ if st.session_state['page'] == 'Dashboard':
     col1, col2, col3 = st.columns([1,1,1])
 
     with col2:
-        if st.button("🚀 Start System", use_container_width=True):
+        if st.button("Start System", use_container_width=True):
             change_page("Training")
             st.rerun()
 
